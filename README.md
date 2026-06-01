@@ -2,13 +2,13 @@
 
 ![Username](./Resources/Public/Icons/Extension.png)
 
-Easily enter the backend with any exisiting user by just entering the
-username. This can be used for testing different users, next to the
-exisiting switch user functionality, e.g. in case MFA has to be evaluated.
+Easily login as any existing TYPO3 backend or frontend user by entering only
+the username. This can be useful for local development and testing different
+user permissions or MFA-related scenarios.
 
-## ![DISCLAMER](./Resources/Public/Icons/Warning.png) DISCLAMER
+## ![DISCLAIMER](./Resources/Public/Icons/Warning.png) DISCLAIMER
 
-*THIS EXTENSION IS FOR CONVIENCE WHILE TESTING AND DEVELOPING.
+*THIS EXTENSION IS FOR CONVENIENCE WHILE TESTING AND DEVELOPING.
 DO NOT USE THIS ON PRODUCTION WEBSITES!*
 
 ## Installation
