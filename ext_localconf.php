@@ -26,3 +26,20 @@ ExtensionManagementUtility::addService(
         'className' => \Bo\Username\Backend\UsernameAuthService::class,
     ]
 );
+
+ExtensionManagementUtility::addService(
+    'sv',
+    'auth',
+    \Bo\Username\Frontend\UsernameAuthService::class,
+    [
+        'title' => 'Username FE authentication',
+        'description' => 'Authenticates a TYPO3 CMS frontend user with username only',
+        'subtype' => 'authUserFE,getUserFE',
+        'available' => true,
+        'priority' => 100,
+        'quality' => 50,
+        'os' => '',
+        'exec' => '',
+        'className' => \Bo\Username\Frontend\UsernameAuthService::class,
+    ]
+);
